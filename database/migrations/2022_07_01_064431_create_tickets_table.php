@@ -21,6 +21,7 @@ return new class extends Migration
             $table->string('to');
             $table->string('time');
             $table->integer('station_id');
+            $table->integer('user_id');
             $table->timestamps();
         });
     }
